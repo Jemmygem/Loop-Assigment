@@ -45,3 +45,15 @@ function calc(a, b) {
 }
 calc(5, 7);
 
+//Factorial Calculator:Write a function that calculates the factorial of a given number. DO NOT USE PROMPT, I WANT ONLY 1 CONSOLE.LOG, YOUR FUNCTION MUST BE REUSEABLE, AND MUST RETURN A VALUE
+
+function factorial(num) {
+  if (num < 0) {
+    return -1;
+  } else if (num == 0) {
+    return 1;
+  } else {
+    return (num * factorial(num - 1));
+  }
+}
+
