@@ -12,4 +12,4 @@ Function return: When JavaScript reaches a return statement, the function will s
 A function declaration: using the `function` keyword followed by the function name and the function body. Function declarations are loaded before any code is executed, so they can be called before they are defined.
 A function expression: by assigning a function to a variable. Function expressions are not hoisted, so they cannot be called before they are defined.
 
-Control Flow Statements : This article provides an overview of control flow statements in JavaScript. It covers topics such as `if` statements, `else` statements, `switch` statements, `for` loops, `while` loops, and `do-while` loops. 
+Control Flow Statements : This article provides an overview of control flow statements in JavaScript. It covers topics such as `if` statements, `else` statements, `switch` statements, `for` loops, `while` loops, and `do-while` loops.
